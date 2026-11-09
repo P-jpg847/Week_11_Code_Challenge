@@ -49,7 +49,6 @@ def student_average(book, name):
 def top_student(book):
     """Return the name of the student with the highest average score."""
     # TODO
-def top_student(book):
     top_student = None
     top_average = None
     for name in book:

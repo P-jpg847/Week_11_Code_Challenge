@@ -66,7 +66,7 @@ def print_report(book):
     # TODO
     def print_report(book):
         for name, score in book.items():
-            print(name, score, student_average(book, name))
+            print(name, score, "Average:", student_average(book, name))
     pass
 
 

@@ -9,9 +9,9 @@
 5. Complete the code challenge in the file `gradebook_challenge.py` in this same repository. You can edit it in the browser or download it and work in your usual editor, then upload the finished file.
 6. When everything is done, copy the web address (URL) of your forked repository and submit that link on Moodle.
 
-Name:
-Section:
-Date:
+Name:Precious Akinyele
+Section: 01
+Date:11/9/2026
 
 ---
 
@@ -19,39 +19,37 @@ Date:
 
 Answer each question in your own words or with the exact output, as asked. Write your answer on the line under each question.
 
-**1.** A dictionary stores data as key-value pairs. Write one line of Python that creates a dictionary named `student` with the keys `"name"` and `"major"` and values of your choosing.
+**1.** A dictionary stores data as key-value pairs. Write one line of Python that creates a dictionary named `student` with the keys `"name"` and `"major"` and values of your choosing. 
 
-Your answer:
+Your answer: my_dictionary["student"] = "Precious", "Cybersecurity", "19"
 
 **2.** What is the output of this code?
-
 ```python
 grades = {"quiz1": 85, "quiz2": 92, "quiz3": 78}
 print(grades["quiz2"])
 ```
 
-Your answer:
+Your answer: The output is 92
 
 **3.** What is the difference between `grades["quiz4"]` and `grades.get("quiz4")` when the key `"quiz4"` does not exist in the dictionary?
 
-Your answer:
+Your answer: 'grades["quiz4"] expect a value to be there, so it will raise a KeyError while 'grades.get("quiz4") will return None.
 
 **4.** Write the line of code that adds a new key `"quiz4"` with the value 88 to the `grades` dictionary above. Then write the line that changes `"quiz1"` to 90.
 
-Your answer:
+Your answer: grades = {"quiz1": 90, "quiz2": 92, "quiz3": 78, "quiz4": 88}
 
 **5.** What do the dictionary methods `.keys()`, `.values()`, and `.items()` each return?
 
-Your answer:
+Your answer: .keys displays a list of all the keys in the dictionary, .values display all the values in the dictionary and .items display a list of tuples in the dictionary.
 
-**6.** In one or two sentences each, explain the main difference between a list, a tuple, and a set. When would you choose each one?
+**6.** In one or two sentences each, explain the main difference between a list, a tuple, and a set. When would you choose each one? 
 
-Your answer:
+Your answer: Lists, tuples, and sets are used inside a Python dictionary to store collections of data under a single key, differing mainly in mutability, ordering, and uniqueness.
 
 **7.** True or false, and explain why: in Python, the expression `"quiz1" in grades` checks whether `"quiz1"` is one of the values in the dictionary.
 
-Your answer:
-
+Your answer: False, because using the "in" operator checks whether the item is a key, not a value. 
 **8.** What is the output of this code?
 
 ```python
@@ -59,15 +57,15 @@ student = {"name": "Alex", "courses": {"current": "CIS 105", "credits": 3}}
 print(student["courses"]["current"])
 ```
 
-Your answer:
+Your answer: The output is CIS 105
 
 **9.** Name two different ways to remove the key `"quiz3"` from the `grades` dictionary. What is one difference between them?
 
-Your answer:
+Your answer: The two ways are .pop() and del, a difference between them is .pop() returns the value while del does not return anything.
 
 **10.** What does `len(grades)` return for the dictionary in Question 2, and what exactly is it counting?
 
-Your answer:
+Your answer: Question 2 return 3 and that is because 'len' counts the number of items in an object.
 
 ---
 

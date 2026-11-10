@@ -64,9 +64,8 @@ def print_report(book):
     """Print every student, their scores, and their average,
     one student per line. Loop over the dictionary with .items()."""
     # TODO
-    def print_report(book):
-        for name, score in book.items():
-            print(name, score, "Average:", student_average(book, name))
+    for name, score in book.items():
+        print(name, score, "Average:", student_average(book, name))
     pass
 
 
